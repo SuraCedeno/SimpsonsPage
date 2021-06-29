@@ -1,5 +1,17 @@
-body{
+@import "./Vars.scss";
+@import "./Media.scss";
+
+body {
     margin: 0;
-    background-color: red;
-    color:white;
-}
+    font-family: $theme-font;
+    background: $main-color;
+    background-image: url(https://simpsons-latino.club/wp-content/themes/vizer/assets/img/intro2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  

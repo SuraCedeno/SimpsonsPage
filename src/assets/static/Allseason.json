@@ -1,0 +1,20 @@
+[ 
+  {
+    "ID": 1,
+    "CreatedAt": "0001-01-01T00:00:00Z",
+    "UpdatedAt": "0001-01-01T00:00:00Z",
+    "DeletedAt": null,
+    "Chapters": 13,
+    "Image": "image",
+    "Name": "Season 1"
+  },
+  {
+    "ID": 2,
+    "CreatedAt": "0001-01-01T00:00:00Z",
+    "UpdatedAt": "0001-01-01T00:00:00Z",
+    "DeletedAt": null,
+    "Chapters": 22,
+    "Image": "imagn 2",
+    "Name": "Season 2"
+  }
+]
