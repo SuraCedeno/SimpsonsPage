@@ -5,6 +5,7 @@ import Image from '../assets/static/Homer.jpg'
 
 
 const EpisodesItem = ({ChapterID,Image, Name, Order }) => (
+    <Link to={`/season/episode/${ChapterID}`} className="episode-item__details--title">
     <div className="episode-item">
     <img className="episode-item__img" src={Image} alt="Imagen del capitulo"  />
     
@@ -13,6 +14,7 @@ const EpisodesItem = ({ChapterID,Image, Name, Order }) => (
      <p className="episode-item__details--subtitle">{Order}</p>
     </div>
   </div>
+ </Link>
  );
 
 export default EpisodesItem;
